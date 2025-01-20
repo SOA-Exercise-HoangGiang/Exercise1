@@ -49,7 +49,7 @@
 
 #### Truy cập H2 Database (http://localhost:8080/h2-console) ####
 
-- Đăng nhập vào H2 Database
+- Đăng nhập vào H2 Database:
  
 ![image](https://github.com/user-attachments/assets/4fd10a81-6b75-4f15-b47b-cb746764a0a4)
 
