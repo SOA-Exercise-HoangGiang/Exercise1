@@ -11,7 +11,7 @@
 **1. Thêm mới todo:**
 
 - Trường hợp tạo tên todo đã tồn tại:
-![image](https://github.com/user-attachments/assets/f652f077-3689-4e47-ba4a-f0f11baba85e)
+![Image](https://github.com/user-attachments/assets/87383aec-5036-455d-b213-ef286fa94038)
 
 - Trường hợp tạo mới thành công:
 ![image](https://github.com/user-attachments/assets/55f689e0-9329-44be-87d1-cce78ade2507)
