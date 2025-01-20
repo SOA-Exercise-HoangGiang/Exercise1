@@ -11,7 +11,7 @@
 **1. Thêm mới todo:**
 
 - Trường hợp tạo tên todo đã tồn tại:
-![Image](https://github.com/user-attachments/assets/87383aec-5036-455d-b213-ef286fa94038)
+![image](https://github.com/user-attachments/assets/f652f077-3689-4e47-ba4a-f0f11baba85e)
 
 - Trường hợp tạo mới thành công:
 ![image](https://github.com/user-attachments/assets/55f689e0-9329-44be-87d1-cce78ade2507)
@@ -49,7 +49,7 @@
 
 #### Truy cập H2 Database (http://localhost:8080/h2-console) ####
 
-- Đăng nhập vào H2 Database:
+- Đăng nhập vào H2 Database
  
 ![image](https://github.com/user-attachments/assets/4fd10a81-6b75-4f15-b47b-cb746764a0a4)
 
