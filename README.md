@@ -7,6 +7,9 @@
 - H2 Database (chạy trong memory, không cần cài phần mềm như SQL Server, MySQL)
 - Sử dụng Postman để test các API và dùng H2 Database Console để xem dữ liệu
 
+### Cấu trúc thư mục:
+![image](https://github.com/user-attachments/assets/dd210110-48d9-4a49-ad31-2f432ab80003)
+
 ### Kết quả đạt được:
 **1. Thêm mới todo:**
 
