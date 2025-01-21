@@ -3,7 +3,7 @@
 ## Exercise 1 - La Hoàng Giang
 
 ### Mô tả các kiến thức đã áp dụng:
-- Spring Web, Spring Data JPA, Validation, Handling Exception
+- Spring Web, Spring Data JPA, Validation, Handling Exception, Specification
 - H2 Database (chạy trong memory, không cần cài phần mềm như SQL Server, MySQL)
 - Sử dụng Postman để test các API và dùng H2 Database Console để xem dữ liệu
 
@@ -37,7 +37,14 @@
 ![image](https://github.com/user-attachments/assets/f4518b84-1aa9-4d9b-b80f-4afdc4d877c7)
 
 **6. Lấy tất cả todo đã hoàn thành:**
+
 ![image](https://github.com/user-attachments/assets/fba7ffb0-3f79-4a83-8fc7-20b9e4b96c4c)
+
+**7. Tìm kiếm tên todo (bổ sung thêm):**
+
+![image](https://github.com/user-attachments/assets/a4867a96-0995-4cd1-beca-38d48afd9967)
+
+![image](https://github.com/user-attachments/assets/1baa7a20-d276-4fdd-b7d9-83edb154f881)
 
 ***
 
