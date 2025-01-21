@@ -43,16 +43,16 @@ public class TodoController {
         return  ResponseEntity.status(HttpStatus.CREATED).body(this.todoService.getTodoById(id));
     }
 
-    // POST new item
+    // create new item
     @PostMapping
     public ResponseEntity<Todo> createItem(@Valid @RequestBody Todo todo) throws ValidException{
         if(this.todoService.todoExists(todo)){
-            throw new ValidException("Name can exists");
+            throw new ValidException("Name may already exist");
         }
         return ResponseEntity.ok(this.todoService.createTodo(todo));
     }
 
-    // PUT update item
+    // update item
     @PutMapping("/{id}")
     public ResponseEntity<Todo> updateItem(@PathVariable("id") Long id, @Valid @RequestBody Todo inputTodo) throws ValidException {
         Todo existingTodo = this.todoService.getTodoById(id);
@@ -62,7 +62,7 @@ public class TodoController {
         return ResponseEntity.ok(this.todoService.updateTodo(id,inputTodo));
     }
 
-    // DELETE item
+    // delete item
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteItem(@PathVariable("id") Long id) throws ValidException{
         Todo existingTodo = this.todoService.getTodoById(id);
@@ -71,5 +71,11 @@ public class TodoController {
         }
         this.todoService.deleteTodo(id);
         return ResponseEntity.ok(null);
+    }
+
+    // search item
+    @GetMapping("/search")
+    public ResponseEntity<List<Todo>> searchTasksByName(@RequestParam String name) {
+        return ResponseEntity.ok(this.todoService.searchTasksByName(name));
     }
 }

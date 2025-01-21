@@ -45,4 +45,8 @@ public class TodoService {
     public void deleteTodo(Long id) {
         todoRepository.deleteById(id);
     }
+
+    public List<Todo> searchTasksByName(String name) {
+        return this.todoRepository.findAll(TodoSpecs.nameLike(name));
+    }
 }
